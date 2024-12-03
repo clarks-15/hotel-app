@@ -1,0 +1,18 @@
+.hero-image {
+    margin-top: 20px;
+    max-width: 90%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+}
+/* Animasi Tombol */
+.btn {
+    transition: all 0.3s ease; /* Smooth transition */
+    box-shadow: 0 4px 15px rgba(108, 99, 255, 0.6);
+}
+
+.btn:hover {
+    transform: translateY(-5px); /* Tombol melayang */
+    background: #5a54d4; /* Ubah warna saat hover */
+    box-shadow: 0 8px 20px rgba(90, 84, 212, 0.8); /* Efek bayangan lebih besar */
+}
