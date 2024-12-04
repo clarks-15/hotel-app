@@ -48,6 +48,10 @@
             color: #6c63ff;
         }
 
+        .text-center {
+            text-align: center;
+        }
+
         .hero-section {
             background: url('https://source.unsplash.com/1920x1080/?luxury,hotel') no-repeat center center/cover;
             height: 100vh;
@@ -287,11 +291,11 @@
         </div>
     </header>
 
-    <div class="hero-section" style="background: url('https://source.unsplash.com/1920x1080/?luxury,hotel') no-repeat center center/cover; position: relative; color: white; text-align: center; padding: 80px 0;">
+    <div class="hero-section" style="background: url('gambar/hotel.jpg') no-repeat center center/cover; position: relative; color: white; text-align: center; padding: 80px 0;">
     <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.5);"></div>
     <div class="container position-relative z-index-1">
         <h2 class="display-4">Welcome to Luxury Stay</h2>
-        <p class="lead">Indulge in an unforgettable experience of elegance and comfort. Book your stay at the finest hotel in town and enjoy our festive holiday celebrations.</p>
+        <h3 class="lead">Indulge in an unforgettable experience of elegance and comfort. Book your stay at the finest hotel in town and enjoy our festive holiday celebrations.</h3>
         
         <!-- Christmas & New Year Ornaments -->
         <div class="holiday-decorations mt-4">
@@ -299,16 +303,13 @@
             <span class="fa fa-gift" style="font-size: 50px; color: #ffcc00; margin-right: 15px;"></span>
             <span class="fa fa-tree" style="font-size: 50px; color: #ffcc00;"></span>
             <span class="fa fa-bell" style="font-size: 50px; color: #ffcc00; margin-left: 15px;"></span>
-        </div>
-
-        <img src="https://source.unsplash.com/800x500/?hotel,luxury" alt="Luxury Hotel" class="hero-image mt-5" style="max-width: 100%; border-radius: 15px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);">
-
-        <a href="/booking" class="btn btn-primary btn-lg mt-4">Book Now</a>
+        </div>        
+        <a href="/login" class="btn btn-primary btn-lg mt-4">Book Now</a>
     </div>
 </div>
 
-<section class="welcome-section text-center py-5" style="background: url('https://source.unsplash.com/1600x900/?christmas,holiday') no-repeat center center; background-size: cover; color: white;">
-    <div class="container">
+<section class="welcome-section text-center py-5" style="background: url('gambar/city2.jpeg')no-repeat center center/cover; position: relative; color: white; text-align: center; padding: 80px 0;">
+    <div class="container pt-4" >
         <h2 class="display-4">Welcome to Your Dream Holiday Destination!</h2>
         <p class="lead">Experience the warmth, joy, and magic of Christmas and New Year at our hotel. Celebrate your holidays with exclusive offers that will make every moment unforgettable for you and your loved ones!</p>
         <p class="mt-4"><strong>Make every second of your holiday filled with beautiful memories and special surprises!</strong></p>
@@ -331,7 +332,7 @@
             <!-- Christmas Event -->
             <div class="col-md-4">
                 <div class="card text-center">
-                    <img src="https://source.unsplash.com/400x300/?christmas,holiday" alt="Christmas Event">
+                <img src="gambar/event natal.jpg" alt="Christmas Event" >
                     <div class="card-body">
                         <h4 class="card-title">Christmas Celebration</h4>
                         <ul class="list-unstyled">
@@ -339,7 +340,7 @@
                             <li>🎅 Meet & Greet with Santa Claus</li>
                             <li>🛍️ Festive Goodie Bag</li>
                         </ul>
-                        <a href="/offer/christmas" class="btn btn-primary w-100">Discover More</a>
+                        <a href="/login" class="btn btn-primary w-100">Discover More</a>
                     </div>
                 </div>
             </div>
@@ -347,7 +348,7 @@
             <!-- New Year Event -->
             <div class="col-md-4">
                 <div class="card text-center">
-                    <img src="https://source.unsplash.com/400x300/?new-year,celebration" alt="New Year Event">
+                    <img src="gambar/new year.jpg" alt="New Year Event">
                     <div class="card-body">
                         <h4 class="card-title">New Year's Eve Party</h4>
                         <ul class="list-unstyled">
@@ -356,7 +357,7 @@
                             <li>🍴 Gourmet Buffet Dinner</li>
                             <li>🎶 Live Band Performances</li>
                         </ul>
-                        <a href="/offer/newyear" class="btn btn-primary w-100">Discover More</a>
+                        <a href="/login" class="btn btn-primary w-100">Discover More</a>
                     </div>
                 </div>
             </div>
@@ -364,7 +365,7 @@
             <!-- Beach Event -->
             <div class="col-md-4">
                 <div class="card text-center">
-                    <img src="https://source.unsplash.com/400x300/?beach,vacation" alt="Beach Event">
+                    <img src="gambar/beach private.jpg" alt="Beach Event">
                     <div class="card-body">
                         <h4 class="card-title">Beach Getaway</h4>
                         <ul class="list-unstyled">
@@ -373,7 +374,7 @@
                             <li>🏡 Stay in Beachfront Villa</li>
                             <li>🍹 Welcome Tropical Drinks</li>
                         </ul>
-                        <a href="/offer/beach" class="btn btn-primary w-100">Discover More</a>
+                        <a href="/login" class="btn btn-primary w-100">Discover More</a>
                     </div>
                 </div>
             </div>
@@ -389,7 +390,7 @@
             <!-- Family Package -->
             <div class="col-md-4">
                 <div class="card text-center">
-                    <img src="https://source.unsplash.com/400x300/?family,vacation" alt="Family Package">
+                    <img src="gambar/family.jpg" alt="Family Package">
                     <div class="card-body">
                         <h4 class="card-title">Family Package</h4>
                         <ul class="list-unstyled">
@@ -398,7 +399,7 @@
                             <li>🎟 Access to Kids' Playground</li>
                             <li>💰 Starting at $200/night</li>
                         </ul>
-                        <a href="/offer/family" class="btn btn-primary w-100">Discover More</a>
+                        <a href="/login" class="btn btn-primary w-100">Discover More</a>
                     </div>
                 </div>
             </div>
@@ -406,7 +407,7 @@
             <!-- Wedding Package -->
             <div class="col-md-4">
                 <div class="card text-center">
-                    <img src="https://source.unsplash.com/400x300/?wedding,event" alt="Wedding Package">
+                    <img src="gambar/married.jpg" alt="Wedding Package">
                     <div class="card-body">
                         <h4 class="card-title">Wedding Package</h4>
                         <ul class="list-unstyled">
@@ -415,7 +416,7 @@
                             <li>🎶 Live Band or DJ Included</li>
                             <li>💰 Starting at $5,000</li>
                         </ul>
-                        <a href="/offer/wedding" class="btn btn-primary w-100">Discover More</a>
+                        <a href="/login" class="btn btn-primary w-100">Discover More</a>
                     </div>
                 </div>
             </div>
@@ -423,7 +424,7 @@
             <!-- Corporate Package -->
             <div class="col-md-4">
                 <div class="card text-center">
-                    <img src="https://source.unsplash.com/400x300/?conference,corporate" alt="Corporate Package">
+                    <img src="gambar/meeting.jpg" alt="Corporate Package">
                     <div class="card-body">
                         <h4 class="card-title">Corporate Package</h4>
                         <ul class="list-unstyled">
@@ -432,7 +433,7 @@
                             <li>🎥 Full AV Equipment</li>
                             <li>💰 Starting at $1,000/day</li>
                         </ul>
-                        <a href="/offer/corporate" class="btn btn-primary w-100">Discover More</a>
+                        <a href="/login" class="btn btn-primary w-100">Discover More</a>
                     </div>
                 </div>
             </div>
@@ -440,7 +441,7 @@
             <!-- Single Room Booking -->
             <div class="col-md-4">
                 <div class="card text-center">
-                    <img src="https://source.unsplash.com/400x300/?room,hotel" alt="Single Room Booking">
+                    <img src="gambar/single room.jpg" alt="Single Room Booking">
                     <div class="card-body">
                         <h4 class="card-title">Single Room Booking</h4>
                         <ul class="list-unstyled">
@@ -458,7 +459,7 @@
             <!-- Couple's Retreat -->
             <div class="col-md-4">
                 <div class="card text-center">
-                    <img src="https://source.unsplash.com/400x300/?couple,romantic" alt="Couple's Retreat">
+                    <img src="gambar/couple date.jpg" alt="Couple's Retreat">
                     <div class="card-body">
                         <h4 class="card-title">Couple's Retreat</h4>
                         <ul class="list-unstyled">
@@ -468,7 +469,7 @@
                             <li>🌹 Room Decor with Flowers & Candles</li>
                             <li>💰 Starting at $250/night</li>
                         </ul>
-                        <a href="/offer/couples-retreat" class="btn btn-primary w-100">Discover More</a>
+                        <a href="/login" class="btn btn-primary w-100">Discover More</a>
                     </div>
                 </div>
             </div>
@@ -476,7 +477,7 @@
             <!-- Beach Party Event -->
             <div class="col-md-4">
                 <div class="card text-center">
-                    <img src="https://source.unsplash.com/400x300/?beach-party,celebration" alt="Beach Party">
+                    <img src="gambar/beach party.jpg" alt="Beach Party">
                     <div class="card-body">
                         <h4 class="card-title">Beach Party</h4>
                         <ul class="list-unstyled">
@@ -486,7 +487,7 @@
                             <li>🏖️ Access to Private Beach Area</li>
                             <li>💰 Entry Ticket: $50/person</li>
                         </ul>
-                        <a href="/offer/beach-party" class="btn btn-primary w-100">Discover More</a>
+                        <a href="/login" class="btn btn-primary w-100">Discover More</a>
                     </div>
                 </div>
             </div>
@@ -494,17 +495,16 @@
             <!-- Luxury Suite -->
             <div class="col-md-4">
                 <div class="card text-center">
-                    <img src="https://source.unsplash.com/400x300/?luxury-suite,hotel" alt="Luxury Suite">
+                    <img src="gambar/luxury suite.jpg" alt="Luxury Suite">
                     <div class="card-body">
                         <h4 class="card-title">Luxury Suite</h4>
                         <ul class="list-unstyled">
                             <li>🛋️ Spacious Living Room</li>
                             <li>🛁 Private Jacuzzi and Rain Shower</li>
                             <li>📺 Smart TV with Streaming Services</li>
-                            <li>🍾 Mini Bar with Premium Drinks</li>
                             <li>💰 Starting at $600/night</li>
                         </ul>
-                        <a href="/offer/luxury-suite" class="btn btn-primary w-100">Discover More</a>
+                        <a href="/login" class="btn btn-primary w-100">Discover More</a>
                     </div>
                 </div>
             </div>
@@ -512,7 +512,7 @@
             <!-- Adventure Package -->
             <div class="col-md-4">
                 <div class="card text-center">
-                    <img src="https://source.unsplash.com/400x300/?adventure,travel" alt="Adventure Package">
+                    <img src="gambar/event adventure.jpg" alt="Adventure Package">
                     <div class="card-body">
                         <h4 class="card-title">Adventure Package</h4>
                         <ul class="list-unstyled">
@@ -522,14 +522,14 @@
                             <li>🏕️ Overnight Camping Options</li>
                             <li>💰 Package Starting at $300/person</li>
                         </ul>
-                        <a href="/offer/adventure" class="btn btn-primary w-100">Discover More</a>
+                        <a href="/login" class="btn btn-primary w-100">Discover More</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="card text-center">
-                    <img src="https://source.unsplash.com/400x300/?birthday,party" alt="Birthday Party">
+                    <img src="gambar/event birthday.jpg" alt="Birthday Party">
                     <div class="card-body">
                         <h4 class="card-title">Birthday Party</h4>
                         <ul class="list-unstyled">
@@ -539,7 +539,7 @@
                             <li>🕺 Party Games and Activities</li>
                             <li>💰 Starting at $500/event</li>
                         </ul>
-                        <a href="/offer/birthday" class="btn btn-primary w-100">Discover More</a>
+                        <a href="/login" class="btn btn-primary w-100">Discover More</a>
                     </div>
                 </div>
             </div>
